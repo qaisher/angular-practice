@@ -1,0 +1,4 @@
+<h3>Products for Women</h3>
+<ul *ngFor="let product of products">
+    <li (click)="onClick(product)" class="list">{{product.name}}</li>
+</ul>
