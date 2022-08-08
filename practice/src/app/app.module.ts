@@ -9,6 +9,7 @@ import { WomensComponent } from './womens/womens.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
+import { SpecificationComponent } from './specification/specification.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { WelcomePageComponent } from './welcome-page/welcome-page.component';
     WomensComponent,
     ProductDetailComponent,
     PageNotFoundComponent,
-    WelcomePageComponent
+    WelcomePageComponent,
+    SpecificationComponent
   ],
   imports: [
     BrowserModule,

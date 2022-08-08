@@ -30,4 +30,12 @@ export class ProductDetailComponent implements OnInit {
     this.router.navigate(['../', currentId+1], {relativeTo: this.route});
   }
 
+  goBack(){
+    this.router.navigate(['../'], {relativeTo: this.route});
+  }
+
+  showSpecification(){
+    this.router.navigate(['specification'], {relativeTo: this.route});
+  }
+
 }
